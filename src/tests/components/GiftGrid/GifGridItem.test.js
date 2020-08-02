@@ -1,7 +1,7 @@
 import React from 'react';
 import '@testing-library/jest-dom';
 import { shallow } from 'enzyme';
-import { GifGridItem } from '../../components/GifGrid/GifGridItem';
+import { GifGridItem } from '../../../components/GifGrid/GifGridItem';
 
 describe('Pruebas en GifGridItem', () => {
    const title = 'Un título';
