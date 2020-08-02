@@ -1,8 +1,8 @@
 import React from 'react';
 import '@testing-library/jest-dom';
 import { useFetchGifs } from '../../../hooks/useFetchGifs';
-const { shallow } = require("enzyme")
-const { GifGrid } = require("../../../components/GifGrid/GifGrid")
+import { shallow } from 'enzyme';
+import { GifGrid } from '../../../components/GifGrid/GifGrid';
 jest.mock('../../../hooks/useFetchGifs');
 
 describe('Pruebas en el GifGrid', () => {
